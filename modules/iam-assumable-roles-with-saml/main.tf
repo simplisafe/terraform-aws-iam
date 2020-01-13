@@ -1,3 +1,7 @@
+terraform {
+  backend "s3" {}
+}
+
 data "aws_iam_policy_document" "assume_role_with_saml" {
   statement {
     effect = "Allow"
