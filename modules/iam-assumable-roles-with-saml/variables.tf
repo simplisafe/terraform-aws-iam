@@ -1,3 +1,7 @@
+variable "aws_region" {
+  default = "us-east-1"
+}
+
 variable "provider_name" {
   description = "Name of the SAML Provider"
   type        = string
